@@ -20,13 +20,15 @@ We can convert them into `x` and `y` coordinates
 ```
 If is north, y + 1
 south, y - 1
+east x + 1
+west x - 1
 northeast y + 1, x + 1
 southwest y - 1, x - 1
-etc... 
+etc...
 ```
 Then calculate the distance, calculate the letter:
 ```
-distance = sqrt((2x)^2 + (2y)^2)
+distance = sqrt((2x)^2 + (2y)^2) (2x and 2y because both x and y are same)
 flag = distance % 26
 ```
 [Full python script](solve.py)
