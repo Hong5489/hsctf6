@@ -49,12 +49,12 @@ What special about XOR is the encryption method is same as decryption method:
 Example:
 Assume 6 is the key
 (Encryption)
-19 xor 6 = 21	10011	19
+19 xor 6 = 21			10011	19
 				  110	 6
 				-----
 				10101	21
 (Decryption)
-21 xor 6 = 19	10101	21
+21 xor 6 = 19			10101	21
 				  110	 6
 				-----
 				10011	19
@@ -65,25 +65,25 @@ But we can encrypt text with the same key, then finding the key is easy!
 ```
 Example:
 Assume 19 is flag, 6 is key
-19 xor 6 = 21	10011	19
+19 xor 6 = 21			10011	19
 				  110	 6
 				-----
 				10101	21 (Encrypted flag)
 
 I type 24, then it show me encrypted text
-24 xor 6 = 30	11000	24
+24 xor 6 = 30			11000	24
 				  110	 6
 				-----
 				11110	30 (Encrypted text)
 
 I use 30 xor 24 to find the key
-30 xor 24 = 30	11110	30
+30 xor 24 = 30			11110	30
 				11000	24
 				-----
 				00110	 6 (Key found)
 
 I use the key to get flag
-21 xor 6 = 19	10101	21
+21 xor 6 = 19			10101	21
 				  110	 6
 				-----
 				10011	19 (Flag)
