@@ -12,7 +12,9 @@ Note: submit the first two combo values separated by a space in hex format.
 I explain only the `next()` and `h()` bacause others is not important
 
 `m()` function reduce the size of number become 8 bytes (Because of & operator)
+
 `h()` function is do some complicated calculation and put it to `s[0]` and `s[1]`
+
 `next()` function is just running `h()` and return `m(b)`
 ```python
 def m(a):
@@ -28,6 +30,7 @@ def h():
 ```
 
 `bin2chr` function is just binary to characters
+
 `isp` function is just check whether the binary is printable (In ASCII range)
 ```python
 # Helper methods
