@@ -52,7 +52,7 @@ Combine both together become : `hsctf{iTs_sUpeR_ob`
 
 The whole flag should be something like : `hsctf{iTs_sUpeR_obViOus}`
 
-Couldn't find next part of key, I just brute force it at the CTF website
+Couldn't find next part of key, I just brute force it at the CTF website (Brute force uppercase and lowercase)
 
 And the whole key is pretty weird : `FFFFFFFFFFFFFOOOOO\x07E\x16\x16EE`
 
